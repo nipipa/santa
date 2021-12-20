@@ -1,0 +1,28 @@
+User-agent: Yandex # Обращение к роботу Яндекса
+Disallow: /wp-content/uploads/ # Закрываем всю папку 
+Allow: /wp-content/uploads/// # Открываем папки картинок вида /uploads/close/open/
+Disallow: /wp-login.php # Закрытие файла. Делать не нужно 
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: /template.html
+Disallow: /cgi-bin # Закрываем папку
+Disallow: /wp-admin # Закрываем все служебные папки в CMS
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /wp-content/themes
+Disallow: /wp-trackback
+Disallow: /wp-feed
+Disallow: /wp-comments
+Disallow: */trackback # Закрываем URL содержащие /trackback
+Disallow: */feed # Закрываем URL содержащие /feed
+Disallow: /comments # Закрываем URL содержащие /comments
+Disallow: /archive # Закрываем архивы
+Disallow: /?feed= # Закрываем фиды
+Disallow: /?s= # Закрываем URL поиска по сайту
+Allow: /wp-content/themes/RomanusNew/js # Открываем только папку js
+Allow: /wp-content/themes/RomanusNew/style.css # Открываем файл style.css
+Allow: /wp-content/themes/RomanusNew/css* # Открываем только папку css
+Allow: /wp-content/themes/RomanusNew/fonts* # Открываем только папку fonts
+Host: romanus.ru # Указание главного зеркала, уже неактуально
+Sitemap: https://secret-santa.msk.ru/sitemap.xml # Абсолютная ссылка на карту сайта
