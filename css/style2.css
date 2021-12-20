@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    background: url('../img/3s4N7WInpEs.jpg');
+}
+.ogr{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #c1d4e78f;
+}
+.one_block{
+    width: 78%;
+    padding: 1%;
+    margin: 0 auto;
+    /* background: #C1D4E7; */
+    border-radius: 10px;
+    margin-top: 1%;
+}
+.ng{
+    margin-top: 1%;
+    background: #c1d4e78f;
+    width: 100%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.play{
+    border-radius: 10px;
+    margin-top: 1%;
+    background: #c1d4e78f;
+    width: 100%;
+    padding: 1%;
+    display: inline-flex;
+}
+.creat_room{
+    border-radius: 10px;
+    margin-top: 1%;
+    background: #c1d4e78f;
+    width: 100%;
+    padding: 1%;
+    min-height: 250px;
+}

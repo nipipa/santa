@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    background-color: #F0F0EB;
+    background: url('../img/fon.jpg');
+}
+
+.header{
+    width: 100%;
+    min-height: 8%;
+    height: auto;
+    background-image: linear-gradient(to right, #4789c97d 0%, #c8def47a 130%, #c8def47a 100%);
+    border-bottom: 0.5px solid rgb(224, 224, 224);
+    display: inline-flex;
+}
+.ogr_header{
+    width: 80%;
+    margin: 0 auto;
+    display: inline-flex;
+}
+.ogr_header img{
+    width: 64px;
+    height: 64px;
+    padding: 0.5%;
+}
+.but_delet{
+    width: 100px;
+    height: 62px;
+    border-radius: 15px;
+    border: 2px solid #c74949;
+    background: none;
+    margin-top: 1.5%;
+    margin-left: auto;
+    margin-right: 1%;
+}
+.info_room{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.info_room h2{
+    background-color: #b1c4d67a;
+    border-radius: 25px;
+    padding: 0.5%;
+    margin: 0.5%;
+    display: inline-flex;
+}
+.list_user{
+    width: 80%;
+    margin: 0 auto;
+    min-height: 200px;
+    background-image: linear-gradient(to right, #4789c97d 0%, #c8def47a 130%, #c8def47a 100%);
+    border-radius: 15px;
+    padding-bottom: 2%;
+}
+.list_user div{
+    width: 100%;
+    height: auto;
+    background-color: #b1c4d67a;
+    border-top:1px solid gray ;
+    border-bottom:1px solid gray ;
+    display: inline-flex;
+}
+.us h1{
+    margin-left: 2%;
+}
+.del_u{
+    background: none;
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 45%;
+    margin-top: 23%;
+    float: right;
+    padding: 1%;
+    margin-left: 25%;
+
+}
+.start_play{
+    border: 2px solid orange;
+    background: none;
+    border-radius: 10px;
+    padding: 1%;
+}
+#qrcode{
+    width: 258px;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #c8def47a;
+
+}
+.sum{
+    text-align: center;
+    background-color: #ccdbe8;
+    padding: 0.5%;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+@media screen and (max-width:700px) {
+    .content{
+        width: 100%;
+        margin: 0;
+    }
+    .nimg{
+        width: 64px;
+        height: 64px;
+    }
+    .text_gl{
+        font-size: 24px;
+    }
+    .list_user{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+    .info_room{
+        width: 100%;
+        margin: 0;
+    }
+    .ssilka{
+        font-size: 15px;
+    }
+    .but_delet{
+        margin-top: 11%;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        font-size: 9px;
+    }
+    .us h1{
+        margin-left: 0;
+        font-size: 23px;
+    }
+    .ogr_header{
+       width: 100%;
+    }
+    .del_u{
+        height: 58%;
+        margin-top: 12%;
+    }
+    .sum{
+        width: 100%;
+    }
+}

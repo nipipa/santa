@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F0F0EB;
+    font-family: 'Comfortaa', cursive;
+    background: url('../img/fon.jpg');
+}
+.header{
+    width: 100%;
+    height: 8%;
+    background-image: linear-gradient(to right, #4789c97d 0%, #c8def47a 130%, #c8def47a 100%);
+    border-bottom: 0.5px solid rgb(224, 224, 224);
+
+}
+.ogr_header{
+    width: 80%;
+    margin: 0 auto;
+}
+.list{
+    width: 80%;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #4789c97d 0%, #c8def47a 130%, #c8def47a 100%);
+    border-radius: 15px;
+    height: auto;
+    padding: 1%;
+}
+.result{
+    margin: 0 auto;
+}
+.res_user{
+    text-align: center;
+}
+@media screen and (max-width:380px) {
+    .header{
+        height: 10%;
+    }
+    .res_user{
+        font-size: 24px;
+        text-align: center;
+    }
+    .list{
+        width: 98%;
+
+    }
+    .ogr_header{
+        width: 100%;
+     }
+}
