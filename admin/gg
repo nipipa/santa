@@ -1,0 +1,11 @@
+<form action="" method="post">
+    <textarea name="vv" id="" cols="30" rows="10"></textarea><button name="add">Добавить</button>
+    </form>
+    <?php
+    while($re = mysqli_fetch_assoc($res)){ 
+        if($re['finish']==0){?>
+    <div style="background-color: #c8def47a;padding:1%;border:0.5px solid black;"><?=$i++?><h1><?=$re['text']?></h1><form action="" method="post"><button value="<?=$re['id']?>" name="finish" style="margin-left: auto;">Завершить</button></form></div>
+    <?php }else{?>
+        <div style="background-color: #c8def47a;padding:1%;border:0.5px solid black;"><?=$i++?><h1 style=" text-decoration: line-through;"><?=$re['text']?></h1></div>
+    <?php }}
+    ?>
